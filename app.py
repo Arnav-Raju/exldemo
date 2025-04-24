@@ -13,7 +13,7 @@ client = OpenAI(
 )
 
 st.set_page_config(page_title="📋 Meeting Q&A Assistant", layout="wide")
-st.title("📋 Meeting Transcript Q&A Assistant")
+st.title("Meeting Transcript Q&A Assistant")
 
 # Session state for chat history
 if "history" not in st.session_state:
